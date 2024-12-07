@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Ultimate Big Band</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #000;
+            color: #fff;
+        }
+        header {
+            background-color: #d90429;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            background-color: #111;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #fff;
+            text-decoration: none;
+        }
+        nav a:hover {
+            color: #d90429;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .band-section h2, .songs-section h2 {
+            color: #d90429;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .member, .song {
+            margin: 20px 0;
+        }
+        footer {
+            text-align: center;
+            background-color: #111;
+            padding: 10px;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Ultimate Big Band</h1>
+    </header>
+    <nav>
+        <a href="#band-members">Band Members</a>
+        <a href="#songs">Selected Songs</a>
+    </nav>
+    <section id="band-members" class="band-section">
+        <h2>Band Members</h2>
+        <div class="member">
+            <h3>Trumpets</h3>
+            <ul>
+                <li>Louis Armstrong - A pioneering jazz trumpeter known for his charismatic stage presence and innovative playing style.</li>
+                <li>Dizzy Gillespie - A virtuoso trumpeter and bandleader, recognized for his contributions to bebop and Afro-Cuban jazz.</li>
+                <li>Miles Davis - An influential trumpeter and composer, famous for his work in various jazz styles, including cool jazz and fusion.</li>
+                <li>Wynton Marsalis - A contemporary trumpeter and artistic director known for his work in both jazz and classical music.</li>
+            </ul>
+        </div>
+        <div class="member">
+            <h3>Saxophones</h3>
+            <ul>
+                <li>Charlie Parker (Alto) - A legendary figure in the development of bebop.</li>
+                <li>John Coltrane (Tenor) - Celebrated for his innovative work in modal jazz and avant-garde.</li>
+                <li>Gerry Mulligan (Baritone) - Known for his work in cool jazz.</li>
+                <li>Stan Getz (Tenor) - Renowned for his smooth tone and bossa nova contributions.</li>
+            </ul>
+        </div>
+        <!-- Add Trombones and Rhythm Section similarly -->
+    </section>
+    <section id="songs" class="songs-section">
+        <h2>Selected Songs</h2>
+        <div class="song">
+            <h3>"Take the 'A' Train" by Billy Strayhorn</h3>
+            <p><strong>Composer Bio:</strong> Billy Strayhorn was a renowned composer and pianist, best known for his collaboration with Duke Ellington.</p>
+            <p><strong>Song Info:</strong> One of the most famous jazz standards, capturing the energy of NYC's subway line.</p>
+        </div>
+        <div class="song">
+            <h3>"So What" by Miles Davis</h3>
+            <p><strong>Composer Bio:</strong> Miles Davis was a groundbreaking trumpeter and composer, influential in multiple jazz genres.</p>
+            <p><strong>Song Info:</strong> A modal jazz piece from *Kind of Blue*, known for its cool, laid-back style.</p>
+        </div>
+        <!-- Add more songs similarly -->
+    </section>
+    <footer>
+        <p>&copy; 2024 The Ultimate Big Band. All rights reserved.</p>
+    </footer>
+</body>
+</html>
